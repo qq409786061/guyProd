@@ -22,8 +22,9 @@
 		<mongo-java-driver.version>3.10.1</mongo-java-driver.version>
 		<lombok.version>1.16.8</lombok.version>
 		<disconf-client.version>2.6.31</disconf-client.version>
-		<curator-framework.version>4.0.1</curator-framework.version>
+		<curator-frameworkprovided.version>4.0.1</curator-frameworkprovided.version>
 		<curator-client.version>4.0.1</curator-client.version>
+		<curator-framework.version>4.0.1</curator-framework.version>
 	</properties>
 
 	<dependencies>

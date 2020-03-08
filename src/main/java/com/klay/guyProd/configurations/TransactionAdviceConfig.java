@@ -11,10 +11,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.interceptor.*;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
 // 切面
 @Aspect
 // 表示该类相当于Spring的xml配置文件中的<Beans>
