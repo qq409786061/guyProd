@@ -25,6 +25,7 @@
 		<curator-frameworkprovided.version>4.0.1</curator-frameworkprovided.version>
 		<curator-client.version>4.0.1</curator-client.version>
 		<curator-framework.version>4.0.1</curator-framework.version>
+		<sonar-maven-plugin>2.7.1</sonar-maven-plugin>
 	</properties>
 
 	<dependencies>
@@ -110,11 +111,6 @@
 				<configuration>
 					<skipTests>true</skipTests>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>2.7.1</version>
 			</plugin>
 		</plugins>
 	</build>
